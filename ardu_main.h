@@ -10,6 +10,9 @@
 //#define SHOW_PELLET_COUNT
 //#define CHEAT_ALWAYS_HAVE_POWER_PILL
 
+//the highscore system is the same as the breakout example - pick an unused eeprom slot!
+#define EEPROM_HIGH_SCORE_SAVE_SLOT 8
+
 #define LIVES_COUNT 3
 #define PLAYER_FAST_SPEED 0.6f
 #define PLAYER_SLOW_SPEED 0.48f //when eating pellets
@@ -37,8 +40,6 @@ void main_setup();
 void ClearAndRedrawLevel();
 void DrawScore();
 
-//the highscore system is the same as the breakout example - pick an unused eeprom slot!
-#define EEPROM_HIGH_SCORE_SAVE_SLOT 8
 enum GAME_MODE
 {
 	MODE_NONE,
