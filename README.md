@@ -1,4 +1,4 @@
-# arduman
+# Ardu-man
 
 For Arduboy lib 1.2 and the consumer Arduboy device
 
