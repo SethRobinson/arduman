@@ -1,6 +1,14 @@
 # arduman
 
+For Arduboy lib 1.2 and the consumer Arduboy device
+
 It's Ardu-man!  A game not completely dissimilar from pac-man.
+
+Play it in your browser too! www.rtsoft.com/arduman.html
+
+Version history:
+
+V1.00:  Initial release
 
 Credits:
 
@@ -12,7 +20,6 @@ Thanks to:
 - foupy and his cool image converter: http://fuopy.github.io/arduboy-image-converter/
 - miditones for midi conversion
 - Highscore code by nootropic design
-
 
 Contact:
 
