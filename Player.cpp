@@ -104,7 +104,7 @@ void Player::Update()
 {
 	if (m_wasHurt) return;
 
-	uint8_t input = arduboy.getInput();
+	uint8_t input = arduboy.buttonsState();
 
 	if (PowerIsActive())
 	{

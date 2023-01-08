@@ -1,6 +1,6 @@
 # Ardu-man
 
-For Arduboy lib 1.2 and the consumer Arduboy device
+For Arduboy2 lib and the consumer Arduboy device
 
 It's Ardu-man!  A game not completely dissimilar from pac-man.
 
@@ -8,6 +8,7 @@ Play it in your browser too! www.rtsoft.com/arduman.html
 
 Version history:
 
+V1.01:  Convert to Arduboy2 \
 V1.00:  Initial release
 
 Credits:
@@ -23,5 +24,5 @@ Thanks to:
 
 Contact:
 
-seth@rtsoft.com
-www.rtsoft.com
+seth@rtsoft.com \
+https://www.rtsoft.com/

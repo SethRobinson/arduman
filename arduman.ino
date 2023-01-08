@@ -1,4 +1,4 @@
-#include <Arduboy.h>
+#include <Arduboy2.h>
 #include "ardu_main.h"
 // This function runs once in your game.
 // use it for anything that needs to be set only once in your game.
