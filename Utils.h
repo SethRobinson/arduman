@@ -1,10 +1,10 @@
 #ifndef Utils_h__
 #define Utils_h__
-#include "Arduboy.h"
+#include "Arduboy2.h"
 #include "ab_printer.h"
 #include <ArduboyPlaytune.h>
 
-extern Arduboy arduboy;
+extern Arduboy2 arduboy;
 extern AbPrinter text;
 extern ArduboyPlaytune tunes;
 extern uint8_t g_level;

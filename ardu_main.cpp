@@ -3,7 +3,7 @@
 //Thanks to: http://fuopy.github.io/arduboy-image-converter/
 
 
-#include <Arduboy.h>
+#include <Arduboy2.h>
 #include <ArduboyPlaytune.h>
 #include "level_bitmaps.h"
 #include "Player.h"
@@ -22,8 +22,8 @@
 //***********************
 
 
-Arduboy arduboy;
-ArduboyPlaytune tunes;
+Arduboy2 arduboy;
+ArduboyPlaytune tunes(arduboy.audio.enabled);
 AbPrinter text(arduboy);
 Player player;
 uint8_t g_level=1;
@@ -149,7 +149,7 @@ void PlayingGame()
 }
 uint8_t g_selection = 0;
 
-void DrawMenuSelection(char *pText, uint8_t id, uint8_t curSel, uint8_t x, uint8_t y)
+void DrawMenuSelection(const char *pText, uint8_t id, uint8_t curSel, uint8_t x, uint8_t y)
 {
 	text.setCursor(x,y);
 	if (id == curSel) text.print("[ ");
